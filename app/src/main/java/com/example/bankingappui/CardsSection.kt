@@ -1,7 +1,5 @@
 package com.example.bankingappui
 
-
-import android.R.attr.fontWeight
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -59,14 +57,14 @@ val cards = listOf(
     ),
     card(
         cardType = "VISA",
-        cardNumber = "6754 5647 4564 1234",
+        cardNumber = "6754 5647 4562 1234",
         cardName = "Business",
         balance = 23456.00,
         color = getGradient(GreenStart, GreenEnd),
     ),
     card(
         cardType = "VISA",
-        cardNumber = "6754 5647 4564 1234",
+        cardNumber = "6754 5647 4565 1234",
         cardName = "Business",
         balance = 23456.00,
         color = getGradient(PurpleStart, PurpleEnd),

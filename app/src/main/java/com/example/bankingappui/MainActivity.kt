@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+
 @Preview
 @Composable
 fun HomeScreen(){
@@ -72,8 +72,8 @@ fun HomeScreen(){
         WalletSection()
         CardsSection()
             Spacer(modifier = Modifier.height(16.dp))
-          //  FinanceSection()
-            ///CurrenciesSection()
+            FinanceSection()
+            CurrenciesSection()
         }
     }
 }
